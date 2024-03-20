@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt@-10..0&display=swap');
+
 :root {
-  font-family: "Consolas", "Courier New", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -7,21 +9,20 @@ body {
 }
 
 .menubar {
-  background-color:#a06efe;
   width:100%;
-  height:fit-content;
+  height:2em;
   text-align:center;
-  color:white;
   box-shadow: 0px 3px 3px gray;
+  color:white;
+  background-color:#a06efe;
 }
 
 .menubar p {
-  margin:0;
-  padding:0;
-}
-
-.menubar a {
-  color: white;
+  margin:0px;
+  padding:0px;
+  text-align:center;
+  vertical-align:center;
+  line-height: 2em;
 }
 
 .content {
@@ -29,27 +30,32 @@ body {
 }
 
 .container {
-  width: 15%;
   background-color: #eeeeee;
-  margin: 10px;
-  padding:5px;
+  margin: 5px;
   border-radius: 10px;
   filter: drop-shadow(2px 2px 2px gray);
+  width: fit-content;
+}
+
+.container p {
+  padding: 15px;
 }
 
 .footer {
   background-color: #3c3c3c;
   text-align: center;
+  height: 2em;
 }
 
 .footer p {
-  padding: 8px;
+  vertical-align: center;
+  line-height: 2em;
   color: white;
 }
 
 button {
   font-family: "Consolas", "Courier New", monospace;
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
   background-color: #905eee;
   color:white;
