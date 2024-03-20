@@ -1,38 +1,70 @@
 :root {
-  font-family: Arial;
+  font-family: "Consolas", "Courier New", monospace;
 }
 
 body {
   margin: 0;
 }
 
-#menubar {
-  background-color:green;
+.menubar {
+  background-color:#a06efe;
   width:100%;
   height:fit-content;
   text-align:center;
   color:white;
+  box-shadow: 0px 3px 3px gray;
 }
 
-#menubar p {
+.menubar p {
   margin:0;
   padding:0;
 }
 
-#menubar a {
+.menubar a {
+  color: white;
+}
+
+.content {
+  margin-left: 12px;
+}
+
+.container {
+  width: 15%;
+  background-color: #eeeeee;
+  margin: 10px;
+  padding:5px;
+  border-radius: 10px;
+  filter: drop-shadow(2px 2px 2px gray);
+}
+
+.footer {
+  background-color: #3c3c3c;
+  text-align: center;
+}
+
+.footer p {
+  padding: 8px;
   color: white;
 }
 
 button {
+  font-family: "Consolas", "Courier New", monospace;
+  margin: 10px;
   padding: 10px;
-  background-color: green;
+  background-color: #905eee;
   color:white;
   cursor:pointer;
   border:none;
+  border-radius: 10px;
+  filter: drop-shadow(2px 2px 2px gray);
 }
 
 button:hover {
-  background-color: darkgreen;
+  background-color: #703ece;
+}
+
+button:active {
+  background-color: #501eae;
 }
 
 a {
