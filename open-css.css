@@ -33,11 +33,20 @@ body {
   text-align:center;
 }
 
+.menubar.center a {
+  text-align:center;
+}
+
 .menubar.right {
   float:right;
 }
 
 .menubar.space p {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.menubar.space a {
   padding-left:10px;
   padding-right:10px;
 }
@@ -65,6 +74,13 @@ body {
 }
 
 .menubar p {
+  margin:0px;
+  padding:0px;
+  vertical-align:center;
+  line-height: 2em;
+}
+
+.menubar a {
   margin:0px;
   padding:0px;
   vertical-align:center;
