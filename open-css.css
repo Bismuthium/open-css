@@ -11,16 +11,57 @@ body {
 .menubar {
   width:100%;
   height:2em;
-  text-align:center;
+  text-align:left;
   box-shadow: 0px 3px 3px gray;
   color:white;
   background-color:#a06efe;
 }
 
+.menubar.flex {
+  display:flex;
+}
+
+.menubar.inline {
+  display:inline;
+}
+
+.menubar.center {
+  text-align:center;
+}
+
+.menubar.center p {
+  text-align:center;
+}
+
+.menubar.right {
+  float:right;
+}
+
+.menubar.space p {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.menubar.red {
+  background-color:#FF817E;
+}
+
+.menubar.green {
+  background-color:#90ee90;
+}
+
+.menubar.blue {
+  background-color:#ADD8E6;
+  color:black;
+}
+
+.menubar.brown {
+  background-color:#C4A484;
+}
+
 .menubar p {
   margin:0px;
   padding:0px;
-  text-align:center;
   vertical-align:center;
   line-height: 2em;
 }
