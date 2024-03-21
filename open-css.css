@@ -115,7 +115,22 @@ button:active {
 }
 
 a {
-  color: green;
   text-decoration: none;
   font-weight: bold;
+}
+
+a.red {
+  color:#FF817E;
+}
+
+a.green {
+  color:#90ee90;
+}
+
+a.blue {
+  color:#ADD8E6;
+}
+
+a.brown {
+  color:#C4A484;
 }
