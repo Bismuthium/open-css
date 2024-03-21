@@ -59,6 +59,11 @@ body {
   background-color:#C4A484;
 }
 
+.menubar.white {
+  background-color:#FFFFFF;
+  color:black;
+}
+
 .menubar p {
   margin:0px;
   padding:0px;
@@ -133,4 +138,8 @@ a.blue {
 
 a.brown {
   color:#C4A484;
+}
+
+a.white {
+  color:#FFFFFF;
 }
