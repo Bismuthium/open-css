@@ -116,7 +116,7 @@ body {
 }
 
 button {
-  font-family: "Consolas", "Courier New", monospace;
+  font-family: "Inter", sans-serif;
   margin: 5px;
   padding: 10px;
   background-color: #905eee;
@@ -158,4 +158,36 @@ a.brown {
 
 a.white {
   color:#FFFFFF;
+}
+
+.hero {
+  height:calc(fit-content + 100px);
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-color:#a06efe;
+  color:white;
+} 
+
+.hero.red {
+  background-color:#FF817E;
+}
+
+.hero.green {
+  background-color:#90ee90;
+}
+
+.hero.blue {
+  background-color:#ADD8E6;
+  color:black;
+}
+
+.hero.brown {
+  background-color:#C4A484;
+}
+
+.hero.white {
+  background-color:#FFFFFF;
+  color:black;
 }
