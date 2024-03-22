@@ -122,6 +122,10 @@ body {
   padding: 15px;
 }
 
+.container a {
+  padding: 15px;
+}
+
 .footer {
   background-color: #3c3c3c;
   text-align: center;
